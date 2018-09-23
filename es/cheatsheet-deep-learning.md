@@ -2,7 +2,7 @@
 
 &#10230;
 
-<br> Hoja de referencia de Aprendizaje Profundo.
+<br>Hoja de referencia de Aprendizaje Profundo.
 
 **2. Neural Networks**
 
@@ -12,13 +12,13 @@
 
 **3. Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
-&#10230;Las Redes Neuronales son una clase de modelos contruidos con capas. Entre los tipos de redes neuronales más habitualmente utilizados se incluyen las redes neuronales convolucionales y las recurrentes.
+&#10230;Las Redes Neuronales (en inglés _neural networks_) son una clase de modelos contruidos a base de capas de neurones. Entre los tipos de redes neuronales más habitualmente utilizados se incluyen las redes neuronales convolucionales y las recurrentes.
 
 <br>
 
 **4. Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
 
-&#10230; Arquitectura - El vocabulario relacionado con las arquitecturas de las redes neuronales se describe en la figura siguiente.
+&#10230;Arquitectura - El vocabulario relacionado con las arquitecturas de las redes neuronales se describe en la figura siguiente.
 
 <br>
 
@@ -42,7 +42,7 @@
 
 **8. Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
-&#10230; Función de activación - Las funciones de activación se usan al final de una unidad oculta para introducir complejidades no lineales al modelo. Aquí se presentan las más comunes:
+&#10230;Función de activación - Las funciones de activación se usan al final de una unidad oculta para introducir complejidades no lineales al modelo. Aquí se presentan las más comunes:
 
 <br>
 
@@ -60,169 +60,169 @@
 
 **11. Learning rate ― The learning rate, often noted α or sometimes η, indicates at which pace the weights get updated. This can be fixed or adaptively changed. The current most popular method is called Adam, which is a method that adapts the learning rate.**
 
-&#10230;
+&#10230;Tasa de aprendizaje - La tasa de aprendizaje (en inglés, _learning rate_), a menudo definida como α o en ocasiones como η, indica a que ritmo se actualizan los pesos. Esto puede ser fijado or 
 
 <br>
 
 **12. Backpropagation ― Backpropagation is a method to update the weights in the neural network by taking into account the actual output and the desired output. The derivative with respect to weight w is computed using chain rule and is of the following form:**
 
-&#10230;
+&#10230;Propagación hacia atrás - La propagación hacia atrás (en inglés, _backpropagation_) es un método para actualizar los pesos de la red neuronal teniendo en cuenta la salida actual y la salida deseada. La derivada con respecto al peso w se calcula utilizando la regla de la cadena y se escribe de la siguiente manera:
 
 <br>
 
 **13. As a result, the weight is updated as follows:**
 
-&#10230;
+&#10230;Por consiguiente, el peso se actualiza de la siguiente manera:
 
 <br>
 
 **14. Updating weights ― In a neural network, weights are updated as follows:**
 
-&#10230;
+&#10230;Actualizar los pesos - En una red neuronal, los pesos se actualizan de la siguiente manera:
 
 <br>
 
 **15. Step 1: Take a batch of training data.**
 
-&#10230;
+&#10230;Paso 1: Coge un lote de datos de entrenamiento.
 
 <br>
 
 **16. Step 2: Perform forward propagation to obtain the corresponding loss.**
 
-&#10230;
+&#10230;Paso 2: Realiza la propagación hacia delante para obtener la pérdida correspondiente.
 
 <br>
 
 **17. Step 3: Backpropagate the loss to get the gradients.**
 
-&#10230;
+&#10230;Paso 3: Realizar una propagación hacia atrás de la perdida para obtener los gradientes.
 
 <br>
 
 **18. Step 4: Use the gradients to update the weights of the network.**
 
-&#10230;
+&#10230;Paso 4: Usar los gradientes para actualizar los pesos de la red.
 
 <br>
 
 **19. Dropout ― Dropout is a technique meant at preventing overfitting the training data by dropping out units in a neural network. In practice, neurons are either dropped with probability p or kept with probability 1−p**
 
-&#10230;
+&#10230;Dropout ― El dropout es una tecnica utilizada para prevenir sobreajustar al conjunto de entrenamiento abandonando unidades en una red neuronal. En la práctica, los neurones son abandonados con una probabilidad p o conservados con una probabilidad 1-p
 
 <br>
 
 **20. Convolutional Neural Networks**
 
-&#10230;
+&#10230;Redes Neuronales Convolucionales
 
 <br>
 
 **21. Convolutional layer requirement ― By noting W the input volume size, F the size of the convolutional layer neurons, P the amount of zero padding, then the number of neurons N that fit in a given volume is such that:**
 
-&#10230;
+&#10230;Requisito de la capa convolucional - Siendo W el tamaño del volumen de entrada, F el tamaño de los neurones de la capa convolucional Y P la cantidad de zero padding, el numero de neurones N que caben en un volumen dado es tal que:
 
 <br>
 
 **22. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
-&#10230;
+&#10230;Batch normalization ― Es un paso de los hiperparametros γ,β que normaliza el batch {xi}. Siendo μB,σ2B la media y la varianza de lo que queremos corregir al batch, se hace de la siguiente manera: 
 
 <br>
 
 **23. It is usually done after a fully connected/convolutional layer and before a non-linearity layer and aims at allowing higher learning rates and reducing the strong dependence on initialization.**
 
-&#10230;
+&#10230;Habitualmente se realiza despues de una capa totalmente conectada/convolucional y antes de una capa no lineal y tiene como objetivo permitir mayores tasas de aprendizaje y reducir la fuerte dependencia de la inicialización.
 
 <br>
 
 **24. Recurrent Neural Networks**
 
-&#10230;
+&#10230;Redes Neuronales Recurrentes
 
 <br>
 
 **25. Types of gates ― Here are the different types of gates that we encounter in a typical recurrent neural network:**
 
-&#10230;
+&#10230;Tipos de puertas ― Aquí están los diferentes tipos de puertas que encontramos en una red neuronal recurrente típica.
 
 <br>
 
 **26. [Input gate, forget gate, gate, output gate]**
 
-&#10230;
+&#10230;[Puerta de entrada, puerda del olvido, puerta, puerta de salida]
 
 <br>
 
 **27. [Write to cell or not?, Erase a cell or not?, How much to write to cell?, How much to reveal cell?]**
 
-&#10230;
+&#10230;[¿Escribir en la célula o no?, ¿Borrar una célula o no?, ¿Cuánto escribir en la célula?, ¿En qué punto revelar la célula?]
 
 <br>
 
 **28. LSTM ― A long short-term memory (LSTM) network is a type of RNN model that avoids the vanishing gradient problem by adding 'forget' gates.**
 
-&#10230;
+&#10230;LSTM ― Una red de larga memoria a corto plazo (en inglés _long short-term memory network_, LSTM) es un tipo de modelo RNN que evita el problema de _vanishing gradient_ añadiendo puertas del olvido. 
 
 <br>
 
 **29. Reinforcement Learning and Control**
 
-&#10230;
+&#10230;Aprendizaje por Refuerzo y Control.
 
 <br>
 
 **30. The goal of reinforcement learning is for an agent to learn how to evolve in an environment.**
 
-&#10230;
+&#10230;El objetivo del aprendizaje por refuerzo es para un agente aprender a como evolucionar en un entorno.
 
 <br>
 
 **31. Definitions**
 
-&#10230;
+&#10230;Definiciones
 
 <br>
 
 **32. Markov decision processes ― A Markov decision process (MDP) is a 5-tuple (S,A,{Psa},γ,R) where:**
 
-&#10230;
+&#10230;Procesos de decision de MArkov ― Un proceso de decisión de Markov es una 5-tupla (S,A,{Psa},γ,R) donde:
 
 <br>
 
 **33. S is the set of states**
 
-&#10230;
+&#10230;S es el conjunto de estados
 
 <br>
 
 **34. A is the set of actions**
 
-&#10230;
+&#10230;A es el conjunto de acciones
 
 <br>
 
 **35. {Psa} are the state transition probabilities for s∈S and a∈A**
 
-&#10230;
+&#10230;{Psa} son las probabilidades de transición de estado para s∈S y a∈A
 
 <br>
 
 **36. γ∈[0,1[ is the discount factor**
 
-&#10230;
+&#10230;γ∈[0,1[ es el factor de descuento
 
 <br>
 
 **37. R:S×A⟶R or R:S⟶R is the reward function that the algorithm wants to maximize**
 
-&#10230;
+&#10230;R:S×A⟶R or R:S⟶R es la función de recompensa que el algoritmo quiere maximizar.
 
 <br>
 
 **38. Policy ― A policy π is a function π:S⟶A that maps states to actions.**
 
-&#10230;
+&#10230;Política ― Una política π es una función π:S⟶A que mapea estados a acciones.
 
 <br>
 
@@ -246,25 +246,25 @@
 
 **42. Remark: we note that the optimal policy π∗ for a given state s is such that:**
 
-&#10230;
+&#10230;Nota: Decimos que la política óptima π∗ para un estado s dado es tal que:
 
 <br>
 
 **43. Value iteration algorithm ― The value iteration algorithm is in two steps:**
 
-&#10230;
+&#10230;Algoritmo de iteración de valor ― El algoritmo de iteración de valor consta de dos pasos: 
 
 <br>
 
 **44. 1) We initialize the value:**
 
-&#10230;
+&#10230;1) Inicializamos el valor:
 
 <br>
 
 **45. 2) We iterate the value based on the values before:**
 
-&#10230;
+&#10230;2) Iteramos el valor basandose en los valores anteriores:
 
 <br>
 
