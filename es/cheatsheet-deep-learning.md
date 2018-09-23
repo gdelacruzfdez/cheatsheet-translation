@@ -2,59 +2,59 @@
 
 &#10230;
 
-<br>
+<br> Hoja de referencia de Aprendizaje Profundo.
 
 **2. Neural Networks**
 
-&#10230;
+&#10230; Redes Neuronales
 
 <br>
 
 **3. Neural networks are a class of models that are built with layers. Commonly used types of neural networks include convolutional and recurrent neural networks.**
 
-&#10230;
+&#10230;Las Redes Neuronales son una clase de modelos contruidos con capas. Entre los tipos de redes neuronales más habitualmente utilizados se incluyen las redes neuronales convolucionales y las recurrentes.
 
 <br>
 
 **4. Architecture ― The vocabulary around neural networks architectures is described in the figure below:**
 
-&#10230;
+&#10230; Arquitectura - El vocabulario relacionado con las arquitecturas de las redes neuronales se describe en la figura siguiente.
 
 <br>
 
 **5. [Input layer, hidden layer, output layer]**
 
-&#10230;
+&#10230;[Capa de entrada, capa oculta, capa de salida]
 
 <br>
 
 **6. By noting i the ith layer of the network and j the jth hidden unit of the layer, we have:**
 
-&#10230;
+&#10230;Siendo i la i-ésima capa de la red y j la j-ésima unidad oculta de la capa, tenemos:
 
 <br>
 
 **7. where we note w, b, z the weight, bias and output respectively.**
 
-&#10230;
+&#10230;donde w, b y z representan el peso, el sesgo y la salida respectivamente.
 
 <br>
 
 **8. Activation function ― Activation functions are used at the end of a hidden unit to introduce non-linear complexities to the model. Here are the most common ones:**
 
-&#10230;
+&#10230; Función de activación - Las funciones de activación se usan al final de una unidad oculta para introducir complejidades no lineales al modelo. Aquí se presentan las más comunes:
 
 <br>
 
 **9. [Sigmoid, Tanh, ReLU, Leaky ReLU]**
 
-&#10230;
+&#10230;[Sigmoide, Tanh,ReLU, Leaky ReLU]
 
 <br>
 
 **10. Cross-entropy loss ― In the context of neural networks, the cross-entropy loss L(z,y) is commonly used and is defined as follows:**
 
-&#10230;
+&#10230;Pérdida de entropia cruzada - En el contexto de las redes neuronales, la pérdida de entropia cruzada L(z,y) es comunmente utilizada y definida de la siguiente manera:
 
 <br>
 
