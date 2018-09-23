@@ -228,19 +228,19 @@
 
 **39. Remark: we say that we execute a given policy π if given a state s we take the action a=π(s).**
 
-&#10230;
+&#10230;Nota: Decimos que podemos ejecutar una política π data si dado un estado s tomamos la acción a=π(s).
 
 <br>
 
 **40. Value function ― For a given policy π and a given state s, we define the value function Vπ as follows:**
 
-&#10230;
+&#10230;Función de valor ― Para una política π dada y un estado s dado, definimos la función de valor Vπ de la siguiente manera:  
 
 <br>
 
 **41. Bellman equation ― The optimal Bellman equations characterizes the value function Vπ∗ of the optimal policy π∗:**
 
-&#10230;
+&#10230;Ecuación de Bellman ― Las ecuaciones óptimas de bellman caracterizan la función de valor Vπ∗ de la política óptima π∗:   
 
 <br>
 
@@ -270,19 +270,19 @@
 
 **46. Maximum likelihood estimate ― The maximum likelihood estimates for the state transition probabilities are as follows:**
 
-&#10230;
+&#10230;Estimación de la maxima verosimilitud ― Las estimaciones de la máxima verosimilitud para las probabilidades de transición de estados son de la siguiente manera: 
 
 <br>
 
 **47. times took action a in state s and got to s′**
 
-&#10230;
+&#10230; veces que se tomó la acción a en el estado s y se obtuvo s'
 
 <br>
 
 **48. times took action a in state s**
 
-&#10230;
+&#10230; veces que se tomó la acción a en el estado s
 
 <br>
 
